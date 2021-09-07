@@ -11,7 +11,7 @@ This comes with an end to end pipeline that scrapes all the phones' specificatio
 - [Pymongo](https://pymongo.readthedocs.io/en/stable/)
 
 ### With BeautifulSoup4:
-This parser can parse all the phones' specifications available on [gsmarena.com.bd](www.gsmarena.com.bd) using python's *bs4 package* and stores it into a json file. In order to use this, just download and run the notebook **gsmarena_bs4_scraper.ipynb** in your local pc using [jupyter notebook](https://jupyter.org/) or on [google colab](https://colab.research.google.com/).
+This parser can parse all the phones' specifications available on [gsmarena.com.bd](www.gsmarena.com.bd) using python's *bs4 package* and stores it into a json file. In order to use this, just download and run the notebook available [here](https://github.com/tanjimanasreen/gsmarena-crawler/tree/main/gsmarena-com-bd-crawler/Bs4-scraper) in your local pc using [jupyter notebook](https://jupyter.org/) or on [google colab](https://colab.research.google.com/).
 
 **Built With:**
 - [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
