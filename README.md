@@ -1,5 +1,11 @@
-# GSMARENA-CRAWLER
-Here is a collection of crawlers which can crawl [gsmarena](www.gsmarena.com) and [gsmarena.com.bd](www.gsmarena.com.bd). After crawling the data is storedPymongo into a [Mongodb](https://www.mongodb.com/) database.
+# Gsmarena-crawler
+This project is consisted of two crawlers built with different python webscraping libraries ( bs4,scrapy and selenium ) which extract data from [gsmarena](www.gsmarena.com) and and its Bangladeshi variant website [gsmarena-bd](www.gsmarena.com.bd) and store the data into a MongoDB Database.
+
+| Website | Crawler |
+|:----------:|----------|
+| [gsmarena](www.gsmarena.com) | [**gsmareana-selenium**](###GSMARENA.COM-CRAWLER) |
+| [gsmarena-bd](www.gsmarena.com.bd) | [**gsmareanabd-bs4**](####With%20BeautifulSoup4) <br> [**gsmareanabd-scrapy**](####With%20Scrapy%20Framework)  |
+
 
 ## GSMARENA.COM.BD-CRAWLER
 ---
