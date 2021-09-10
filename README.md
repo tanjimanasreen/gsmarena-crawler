@@ -3,8 +3,8 @@ This project is consisted of two crawlers built with different python webscrapin
 
 | Website | Crawler |
 |:----------:|----------|
-| [gsmarena](www.gsmarena.com) | [**gsmareana-selenium**](###GSMARENA.COM-CRAWLER) |
-| [gsmarena-bd](www.gsmarena.com.bd) | [**gsmareanabd-bs4**](####With%20BeautifulSoup4) <br> [**gsmareanabd-scrapy**](####With%20Scrapy%20Framework)  |
+| [gsmarena](www.gsmarena.com) | [**gsmareana-selenium**](#GSMARENA.COM-CRAWLER) |
+| [gsmarena-bd](www.gsmarena.com.bd) | [**gsmareanabd-bs4**](#With%20BeautifulSoup4) <br> [**gsmareanabd-scrapy**](#With%20Scrapy%20Framework)  |
 
 
 ## GSMARENA.COM.BD-CRAWLER
