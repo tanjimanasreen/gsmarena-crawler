@@ -28,7 +28,7 @@ CHROME_DRIVER_PATH = "driver/chromedriver.exe"
 chrome_options = Options()
 
 # set chrome driver args
-chrome_options.add_argument("--headless")
+# chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-extensions")
 chrome_options.add_argument("--disable-notifications")
 chrome_options.add_argument("--disable-infobars")
@@ -202,7 +202,7 @@ def product_specs_parser(product_links):
         time.sleep(2)
         driver.get(url=url)
         print('scraping init...')
-        time.sleep(0.5)
+        time.sleep(2)
         spec_list = {}
         try:
             # wait for visibility of brands section
@@ -222,7 +222,7 @@ def product_specs_parser(product_links):
                 expandable.click()
             except ElementClickInterceptedException as ce:
                 print("No such element")
-            time.sleep(0.5)
+            time.sleep(1)
         else:
             pass
 
